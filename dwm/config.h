@@ -9,11 +9,11 @@ static const unsigned int gappx     = 6;        /* gap pixel between windows */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "awesome:size=10" };
 static const char dmenufont[]       = "awesome:size=10";
-static const char col_gray1[]       = "#282828";
-static const char col_gray2[]       = "#504945";
-static const char col_gray3[]       = "#bdae93";
-static const char col_gray4[]       = "#ebdbb2";
-static const char col_cyan[]        = "#cc241d";
+static const char col_gray1[]       = "#282a36";
+static const char col_gray2[]       = "#f8f8f2";
+static const char col_gray3[]       = "#6272a4";
+static const char col_gray4[]       = "#44475a";
+static const char col_cyan[]        = "#bd93f9";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -21,7 +21,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "Ⅰ", "Ⅱ", "Ⅲ", "Ⅳ", "Ⅴ", "Ⅵ", "Ⅶ"};
 
 static const Rule rules[] = {
 	/* xprop(1):
